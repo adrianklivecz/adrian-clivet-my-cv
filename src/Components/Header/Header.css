@@ -1,0 +1,80 @@
+.header-container {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 20px;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16");
+}
+
+.buttons-container {
+  flex: 2;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.buttons-container ul {
+  list-style-type: none;
+}
+
+.buttons-container li {
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.selected {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.top,
+.bottom {
+  flex: 1;
+}
+
+.top {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+}
+
+.bottom {
+  width: 150px;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  border-top: 1px solid darkgray;
+  font-size: 12px;
+  text-align: center;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+#rights-paragraph {
+  margin-top: 0;
+}
+
+.buttons-container a {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+}
+
+.buttons-container a:hover,
+.buttons-container a:active {
+  color: black;
+  font-weight: bold;
+}
+
+.media-icons a {
+  color: black;
+}
