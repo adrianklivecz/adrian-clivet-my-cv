@@ -1,7 +1,21 @@
 .homepage-container {
   margin-left: 250px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  padding-top: 200px;
 }
 
-h1 {
-  margin-left: 80px;
+.homepage-greeting {
+  width: 70%;
+}
+
+.homepage-greeting h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#profile-image {
+  height: 200px;
+  border-radius: 5%;
 }

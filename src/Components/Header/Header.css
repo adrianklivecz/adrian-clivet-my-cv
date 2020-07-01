@@ -1,7 +1,7 @@
 .header-container {
   padding-top: 20px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   height: 100%;
   width: 150px;
   display: flex;
@@ -20,9 +20,15 @@
   list-style-type: none;
 }
 
+/* .menu-list {
+  display: flex;
+  position: relative;
+} */
+
 .buttons-container li {
   margin-bottom: 20px;
   text-align: end;
+  /* position: absolute; */
 }
 
 .selected {
@@ -64,15 +70,17 @@
   margin-top: 0;
 }
 
-.buttons-container a {
+.menu-buttons {
   text-decoration: none;
   color: rgb(102, 100, 100);
+  transition-duration: 0.3s;
 }
 
-.buttons-container a:hover,
-.buttons-container a:active {
+.menu-buttons:hover,
+.menu-buttons:active {
   color: black;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .media-icons a {

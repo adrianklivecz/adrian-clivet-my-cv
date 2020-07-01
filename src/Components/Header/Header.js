@@ -24,21 +24,31 @@ export class Header extends Component {
           </h2>
         </div>
         <div className="buttons-container">
-          <ul>
+          <ul className="menu-list">
             <li className={path === "/" ? "selected" : ""}>
-              <Link to="/">Home</Link>
+              <Link to="/" className="menu-buttons">
+                Home
+              </Link>
             </li>
             <li className={path === "/experience" ? "selected" : ""}>
-              <Link to="/experience">Experience</Link>
+              <Link to="/experience" className="menu-buttons">
+                Experience
+              </Link>
             </li>
             <li className={path === "/education" ? "selected" : ""}>
-              <Link to="/education">Education</Link>
+              <Link to="/education" className="menu-buttons">
+                Education
+              </Link>
             </li>
             <li className={path === "/about-me" ? "selected" : ""}>
-              <Link to="/about-me">About Me</Link>
+              <Link to="/about-me" className="menu-buttons">
+                About Me
+              </Link>
             </li>
             <li className={path === "/contact-me" ? "selected" : ""}>
-              <Link to="/contact-me">Contact Me</Link>
+              <Link to="/contact-me" className="menu-buttons">
+                Contact Me
+              </Link>
             </li>
           </ul>
         </div>

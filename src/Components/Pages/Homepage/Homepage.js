@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import profile from "./IMAG4541.jpg";
 
 import "./Homepage.css";
 
@@ -7,93 +8,20 @@ export class Homepage extends Component {
     return (
       <div className="homepage-container">
         <div>
-          <h1>Hi, I'm Adrian.</h1>
+          <img src={profile} alt="" id="profile-image" />
         </div>
-        <div>
+        <div className="homepage-greeting">
+          <h3>Hi, I'm Adi.</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
+            I'm a passionate learner in Front End Development, focussing right
+            now on React.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
+            Having a background in Marketing and Sales in the luxury goods
+            industry, I'm setting my veils on a different path, exciting and
+            full of possibilities at the same time.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit
-            asperiores, tenetur maiores reiciendis rem, culpa eligendi quod
-            quidem perferendis vel obcaecati debitis. Incidunt quasi molestias
-            facere eveniet natus cupiditate. Incidunt quos dolore aliquam
-            accusantium, adipisci mollitia laborum qui, voluptatum vitae
-            eligendi omnis cumque asperiores vero pariatur ea. Fuga, cum velit!
-            Ex aspernatur libero sed eos magnam! Numquam maxime iusto voluptates
-            unde. Ab quasi voluptas magni illum, labore architecto sequi iure
-            provident vero. Officia possimus incidunt blanditiis eum accusantium
-            iusto recusandae fugit qui consequuntur nam, facilis molestias odio
-            facere in repudiandae totam nobis quis officiis pariatur expedita
-            nemo nulla doloribus!
-          </p>
+          <p></p>
         </div>
       </div>
     );
