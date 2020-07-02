@@ -6,10 +6,34 @@ import { Experience } from "./Components/Pages/Experience/Experience";
 import { Education } from "./Components/Pages/Education/Education";
 import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { ContactMe } from "./Components/Pages/ContactMe/ContactMe";
+// import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
+
 import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showOnLoadModal: false,
+    };
+  }
+
+  componentDidMount() {
+    this.showModal();
+  }
+
+  showModal = () => {
+    this.setState({ showOnLoadModal: true });
+    console.log("show");
+  };
+
+  handleHideLogOutModal = () => {
+    this.setState({ showOnLoadModal: false });
+  };
+
   render() {
+    console.log(this.state.showOnLoadModal);
     return (
       <div className="App">
         <Router>
@@ -19,6 +43,10 @@ class App extends Component {
           <Route exact path="/education" component={Education} />
           <Route exact path="/about-me" component={AboutMe} />
           <Route exact path="/contact-me" component={ContactMe} />
+          {/* <WelcomeModal
+            show={this.state.showOnLoadModal}
+            closeModal={this.handleHideLogOutModal}
+          /> */}
         </Router>
       </div>
     );
