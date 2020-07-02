@@ -1,7 +1,95 @@
 .homepage-container {
-  margin-left: 250px;
+  margin-left: 210px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  /* padding-top: 200px; */
+  /* background: url("mockaroon-YqUeLG7fMr4-unsplash.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
-h1 {
-  margin-left: 80px;
+.image-container {
+  background-color: transparent;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  width: 150px;
+  height: 170px;
+  transition-duration: 0.5s;
 }
+
+.image-container:hover .profile-image {
+  transform: rotateY(180deg);
+}
+
+.profile-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.profile-image-front,
+.profile-image-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.profile-image-front {
+  /* background-color: #bbb; */
+  color: black;
+}
+
+.profile-image-back {
+  background-color: rgb(214, 227, 235);
+  /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16"); */
+  border-radius: 5%;
+  transform: rotateY(180deg);
+  transition: all 3s ease;
+  text-align: center;
+  vertical-align: middle;
+  /* line-height: 90px; */
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image-back:focus {
+  background-color: #f7710f;
+}
+
+.homepage-greeting {
+  width: 70%;
+}
+
+.homepage-greeting h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 5%;
+}
+
+/* .image-container .hover-picture {
+  display: none;
+}
+
+.image-container:hover .hover-picture {
+  display: block;
+}
+
+.image-container:hover .first-profile {
+  display: none;
+} */
