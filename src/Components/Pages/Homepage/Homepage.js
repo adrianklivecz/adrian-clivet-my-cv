@@ -7,8 +7,19 @@ export class Homepage extends Component {
   render() {
     return (
       <div className="homepage-container">
-        <div>
-          <img src={profile} alt="" id="profile-image" />
+        <div className="image-container">
+          <div className="profile-image">
+            <div className="profile-image-front">
+              <img src={profile} alt="" className="profile-image" />
+            </div>
+            <div className="profile-image-back">
+              <div>
+                <p>Just me,</p>
+                <p>doing a flip.</p>
+                <p>Check out the other sections of my website.</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="homepage-greeting">
           <h3>Hi, I'm Adi.</h3>
@@ -21,7 +32,6 @@ export class Homepage extends Component {
             industry, I'm setting my veils on a different path, exciting and
             full of possibilities at the same time.
           </p>
-          <p></p>
         </div>
       </div>
     );
