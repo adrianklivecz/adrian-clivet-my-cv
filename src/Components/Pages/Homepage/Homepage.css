@@ -2,7 +2,7 @@
   margin-left: 210px;
   font-family: "Open Sans", sans-serif;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 100%;
   /* padding-top: 200px; */
@@ -16,11 +16,11 @@
 
 .image-container {
   background-color: transparent;
-  /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
   width: 150px;
   height: 170px;
   transition-duration: 0.5s;
+  padding-right: 50px;
 }
 
 .image-container:hover .profile-image {
@@ -58,19 +58,18 @@
   transition: all 3s ease;
   text-align: center;
   vertical-align: middle;
-  /* line-height: 90px; */
   font-family: "Josefin Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.profile-image-back:focus {
-  background-color: #f7710f;
+.homepage-greeting {
+  width: 40%;
 }
 
-.homepage-greeting {
-  width: 60%;
+.homepage-greeting p {
+  text-align: justify;
 }
 
 .homepage-greeting h3 {
@@ -81,15 +80,3 @@
   width: 150px;
   border-radius: 5%;
 }
-
-/* .image-container .hover-picture {
-  display: none;
-}
-
-.image-container:hover .hover-picture {
-  display: block;
-}
-
-.image-container:hover .first-profile {
-  display: none;
-} */

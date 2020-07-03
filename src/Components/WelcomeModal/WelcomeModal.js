@@ -13,11 +13,14 @@ export class WelcomeModal extends Component {
         >
           <Modal.Header>
             <Modal.Title id="contained-modal-title-vcenter">
-              Log-Out
+              Welcome!
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>Are you sure you want to log out?</p>
+            <p>
+              “There are far, far better things ahead than any we leave behind.”
+              ― C.S. Lewis
+            </p>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.props.closeModal}>Enter</Button>
