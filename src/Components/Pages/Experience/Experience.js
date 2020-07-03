@@ -15,10 +15,10 @@ export class Experience extends Component {
   render() {
     return (
       <div className="experience-container">
-        <p id="experience-page-title">Here is my journey:</p>
+        <p id="experience-page-title">My journey, so far:</p>
         <div className="era-container-first">
           <div className="experience-details">
-            <h4>Nov 2019 - Jun 2020</h4>
+            <p className="experience-title">Nov 2019 - Jun 2020</p>
             <ul>
               <li>
                 I finally started learning programming, taking a course in
@@ -50,7 +50,7 @@ export class Experience extends Component {
             </div>
           </div>
           <div className="experience-details">
-            <h4>Jan 2018 - Nov 2019</h4>
+            <p className="experience-title">Jan 2018 - Nov 2019</p>
             <ul>
               <li>
                 Before I started learning about Web Development, after 8+ years
@@ -68,7 +68,8 @@ export class Experience extends Component {
               </li>
               <li>
                 Not professionally related, the most notable thing I did during
-                this period of time you can see it by hovering the picture on
+                this period of time you can see it by{" "}
+                <span className="hidden-message">hovering</span> the picture on
                 the left.
               </li>
             </ul>
@@ -76,9 +77,9 @@ export class Experience extends Component {
         </div>
         <div className="era-container">
           <div className="experience-details">
-            <h4>
+            <p className="experience-title">
               Oct 2011 - Jan 2018: Sales Consultant at GALT Orologerie Elvetiana
-            </h4>
+            </p>
             <ul>
               <li>
                 I started in a totally new field for me, learning and getting
@@ -121,7 +122,9 @@ export class Experience extends Component {
             </div>
           </div>
           <div className="experience-details">
-            <h4>Aug 2010 - Jul 2011: Account Manager at infoLocal</h4>
+            <p className="experience-title">
+              Aug 2010 - Jul 2011: Account Manager at infoLocal
+            </p>
             <ul>
               <li>
                 infoLocal was a very interesting start-up, providing a premium
@@ -142,10 +145,10 @@ export class Experience extends Component {
         </div>
         <div className="era-container">
           <div className="experience-details">
-            <h4>
+            <p className="experience-title">
               May 2010 - Aug 2010: Loans Consultant at Patria Credit (now Patria
               Bank)
-            </h4>
+            </p>
             <ul>
               <li>
                 With this new job, I was continuing my experience in selling
@@ -175,10 +178,10 @@ export class Experience extends Component {
             </div>
           </div>
           <div className="experience-details">
-            <h4>
+            <p className="experience-title">
               Apr 2009 - Nov 2009: Financial Consultant at Consultanta
               Financiara Germana
-            </h4>
+            </p>
             <ul>
               <li>
                 Consultanta Financiara Germana was a partner of Raiffeisen Banca

@@ -18,10 +18,7 @@ export class Header extends Component {
     return (
       <div className="header-container">
         <div className="top">
-          <h2 className="first-name">Adrian Cliveț</h2>
-          <h2 className="last-name">
-            <span> </span>
-          </h2>
+          <h4 className="first-name">Adrian Cliveț</h4>
         </div>
         <div className="buttons-container">
           <ul className="menu-list">
@@ -54,7 +51,7 @@ export class Header extends Component {
         </div>
         <div className="bottom">
           <div className="media-icons">
-            <h3>
+            <p>
               <a
                 href="https://www.linkedin.com/in/adrianclivet/?originalSubdomain=ro"
                 target="_blank"
@@ -62,8 +59,8 @@ export class Header extends Component {
               >
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
-            </h3>
-            <h3>
+            </p>
+            <p>
               <a
                 href="https://www.facebook.com/adrian.clivet"
                 target="_blank"
@@ -71,8 +68,8 @@ export class Header extends Component {
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-            </h3>
-            <h3>
+            </p>
+            <p>
               <a
                 href="https://www.instagram.com/adrianklivecz/"
                 target="_blank"
@@ -80,7 +77,7 @@ export class Header extends Component {
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-            </h3>
+            </p>
           </div>
           <div className="copyright">
             <p>

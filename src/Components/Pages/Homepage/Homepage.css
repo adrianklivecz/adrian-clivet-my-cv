@@ -56,23 +56,27 @@
   border-radius: 5%;
   transform: rotateY(180deg);
   transition: all 3s ease;
-  text-align: center;
-  vertical-align: middle;
   font-family: "Josefin Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.profile-image-back-inner {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+}
 
 .homepage-greeting {
   width: 40%;
+  padding-left: 100px;
 }
 
 .homepage-greeting p {
   text-align: justify;
 }
 
-.homepage-greeting h3 {
+.homepage-greeting h4 {
   font-family: "Josefin Sans", sans-serif;
 }
 
