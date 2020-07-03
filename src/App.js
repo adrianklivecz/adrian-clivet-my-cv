@@ -6,6 +6,7 @@ import { Experience } from "./Components/Pages/Experience/Experience";
 import { Education } from "./Components/Pages/Education/Education";
 import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { ContactMe } from "./Components/Pages/ContactMe/ContactMe";
+import "bootstrap/dist/css/bootstrap.css";
 // import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
 
 import "./App.css";

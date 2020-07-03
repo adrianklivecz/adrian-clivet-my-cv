@@ -12,17 +12,29 @@
 }
 
 .era-container {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.era-container-first {
+  padding-bottom: 60px;
 }
 
 .experience-details {
-  width: 600px;
+  width: 700px;
   padding-right: 50px;
+  padding-left: 50px;
 }
 
-.experience-details h4 {
+.hidden-message {
+  font-weight: bolder;
+  color: darkblue;
+}
+
+.experience-title {
   margin-left: 50px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .experience-details li {
@@ -32,8 +44,8 @@
 #experience-page-title {
   text-align: center;
   font-size: 22px;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -43,7 +55,7 @@
   width: 180px;
   height: 240px;
   transition-duration: 0.8s;
-  padding-right: 50px;
+  padding-right: 80px;
 }
 
 .experience-image-container:hover .experience-image-hover {

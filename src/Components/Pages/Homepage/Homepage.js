@@ -13,7 +13,7 @@ export class Homepage extends Component {
               <img src={profile} alt="" className="profile-image" />
             </div>
             <div className="profile-image-back">
-              <div>
+              <div className="profile-image-back-inner">
                 <p>Just me,</p>
                 <p>doing a flip.</p>
                 <p>Check out the other sections of my website.</p>
@@ -22,7 +22,7 @@ export class Homepage extends Component {
           </div>
         </div>
         <div className="homepage-greeting">
-          <h3>Hi, I'm Adi.</h3>
+          <h4>Hi, I'm Adi.</h4>
           <p>
             I'm a passionate learner in Front End Development, focussing right
             now on React.
