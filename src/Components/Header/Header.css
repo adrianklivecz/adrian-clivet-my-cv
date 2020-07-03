@@ -9,7 +9,6 @@
   flex-direction: column;
   position: fixed;
   /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16"); */
-  background-color: red 0.5;
 }
 
 .buttons-container {
@@ -31,6 +30,7 @@
   margin-bottom: 20px;
   text-align: end;
   /* position: absolute; */
+  font-size: 20px;
 }
 
 .selected {
