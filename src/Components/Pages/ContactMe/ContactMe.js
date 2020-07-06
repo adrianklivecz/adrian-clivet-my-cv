@@ -1,24 +1,42 @@
 import React, { Component } from "react";
 import { Form, Button, Card } from "react-bootstrap";
-
 import "./ContactMe.css";
 
 export class ContactMe extends Component {
   render() {
     return (
       <div className="contact-page-container">
-        <h3>Looking forward to chat with you!</h3>
+        <h4>Looking forward to chat with you!</h4>
         <div className="contact-page-form-container">
           <div className="contact-page-message">
-            <Card style={{ width: "18rem" }}>
-              <Card.Body>
-                <Card.Title>Thank you for your message.</Card.Title>
-                <Card.Text>
-                  Also, you can check out my social media profiles, by clicking
-                  on the icons on the bottom-left corner of the page.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <div className="contact-card">
+              <Card style={{ width: "20rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Adrian Cliveț
+                  </Card.Title>
+                  <Card.Text>Telephone: +40 753 813 222</Card.Text>
+                  <Card.Text>E-mail: adrian.clivet@yahoo.com</Card.Text>
+                  <Card.Text style={{ fontSize: "13px" }}>
+                    You can also check out my social media accounts (bottom-left
+                    of the page).
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="gmap-cj" style={{ width: "100%" }}>
+              <iframe
+                title="gmap-frame"
+                id="gmap-frame"
+                width="100%"
+                height="350"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=Cluj-Napoca+(My%20Business%20Name)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
           </div>
           <div className="contact-page-form">
             <Form noValidate>

@@ -16,7 +16,7 @@ export class WelcomeModal extends Component {
               Welcome!
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body>
+          <Modal.Body className="modal-structures">
             <p>
               “There are far, far better things ahead than any we leave behind.”
               ― C.S. Lewis
