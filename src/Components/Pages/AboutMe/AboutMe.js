@@ -4,10 +4,6 @@ import React, { Component } from "react";
 
 export class AboutMe extends Component {
   render() {
-    return (
-      <div>
-        <h1>More about me:</h1>
-      </div>
-    );
+    return <div>{/* <h1>More about me:</h1> */}</div>;
   }
 }

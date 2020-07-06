@@ -59,7 +59,7 @@
 }
 
 .experience-image-container:hover .experience-image-hover {
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .experience-image-hover {
@@ -67,7 +67,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: 0.8s;
   transform-style: preserve-3d;
 }
 
@@ -86,8 +86,7 @@
 
 .experience-image-back {
   transform: rotateY(180deg);
-  transition: all 3s ease;
-  font-family: "Josefin Sans", sans-serif;
+  transition: all 1s ease;
 }
 
 .experience-image-hover {
