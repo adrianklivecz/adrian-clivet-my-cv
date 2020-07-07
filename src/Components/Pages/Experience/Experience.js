@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 // import InfiniteScroll from "react-infinite-scroll-component";
 import image1 from "./images/david-travis-5bYxXawHOQg-unsplash.jpg";
-import image2 from "./images/ADI07779.jpg";
 import image3 from "./images/highres_485146091.jpeg";
 import image4 from "./images/0.png";
 import image5 from "./images/infoLocal.jpg";
 import image6 from "./images/patria-bank.jpg";
 import image7 from "./images/Raiffeisen_banca-pentru-locuinte.jpg";
-// import Carousel from "react-bootstrap/Carousel";
+import galt6 from "./images/galt6.jpg";
+import galt2 from "./images/galt2.jpg";
+import galt3 from "./images/galt3.jpg";
+import galt4 from "./images/galt4.jpg";
+import galt5 from "./images/galt5.jpg";
+
+import Carousel from "react-bootstrap/Carousel";
 
 import "./Experience.css";
 
@@ -30,23 +35,16 @@ export class Experience extends Component {
               </li>
             </ul>
           </div>
-          <div>
-            <div className="scit-image-container">
-              <div>
-                <img src={image3} alt="" className="scit-image" />
-              </div>
+          <div className="scit-image-container">
+            <div>
+              <img src={image3} alt="" id="scit-image" />
             </div>
           </div>
         </div>
         <div className="era-container">
           <div className="experience-image-container">
-            <div className="experience-image-hover">
-              <div className="experience-image-front">
-                <img src={image1} alt="" className="experience-image-hover" />
-              </div>
-              <div className="experience-image-back">
-                <img src={image2} alt="" className="experience-image-hover" />
-              </div>
+            <div className="experience-image-research-container">
+              <img src={image1} alt="" className="experience-image-research" />
             </div>
           </div>
           <div className="experience-details">
@@ -66,17 +64,11 @@ export class Experience extends Component {
                 and starting an online business on Amazon, for the former
                 actually taking an online class and started my research.
               </li>
-              <li>
-                Not professionally related, the most notable thing I did during
-                this period of time you can see it by{" "}
-                <span className="hidden-message">hovering</span> the picture on
-                the left.
-              </li>
             </ul>
           </div>
         </div>
-        <div className="era-container">
-          <div className="experience-details">
+        <div className="galt-era-container">
+          <div className="experience-details galt-experience-details">
             <p className="experience-title">
               Oct 2011 - Jan 2018: Sales Consultant at GALT Orologerie Elvetiana
             </p>
@@ -105,20 +97,55 @@ export class Experience extends Component {
               </li>
             </ul>
           </div>
-          <div>
-            <div className="scit-image-container">
-              <div>
-                <img src={image4} alt="" className="scit-image" />
-              </div>
+          <div className="galt-image-container">
+            <div className="galt-logo-container">
+              <img src={image4} alt="galt-logo" id="galt-logo" />
+            </div>
+            <div className="carousel-container">
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={galt6}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={galt2}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={galt3}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={galt4}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={galt5}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
         </div>
         <div className="era-container">
-          <div>
-            <div className="scit-image-container">
-              <div>
-                <img src={image5} alt="" className="infolocal-image" />
-              </div>
+          <div className="wide-logo-image-container">
+            <div>
+              <img src={image5} alt="" className="wide-logo-image" />
             </div>
           </div>
           <div className="experience-details">
@@ -161,20 +188,16 @@ export class Experience extends Component {
               </li>
             </ul>
           </div>
-          <div>
-            <div className="scit-image-container">
-              <div>
-                <img src={image6} alt="" className="infolocal-image" />
-              </div>
+          <div className="wide-logo-image-container">
+            <div>
+              <img src={image6} alt="" className="wide-logo-image" />
             </div>
           </div>
         </div>
         <div className="era-container">
-          <div>
-            <div className="scit-image-container">
-              <div>
-                <img src={image7} alt="" className="infolocal-image" />
-              </div>
+          <div className="wide-logo-image-container">
+            <div>
+              <img src={image7} alt="" className="wide-logo-image" />
             </div>
           </div>
           <div className="experience-details">
