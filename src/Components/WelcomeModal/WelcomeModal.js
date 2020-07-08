@@ -12,6 +12,7 @@ export class WelcomeModal extends Component {
           aria-labelledby="contained-modal-title-vcenter"
           centered
           show={this.props.show}
+          className="splash-modal"
         >
           <Modal.Body className="modal-structures">
             <p className="splash-modal-quote">
