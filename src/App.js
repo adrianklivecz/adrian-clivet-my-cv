@@ -7,7 +7,7 @@ import { Education } from "./Components/Pages/Education/Education";
 import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { ContactMe } from "./Components/Pages/ContactMe/ContactMe";
 import "bootstrap/dist/css/bootstrap.css";
-// import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
+import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
 
 import "./App.css";
 
@@ -34,7 +34,6 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state.showOnLoadModal);
     return (
       <div className="App">
         <Router>
@@ -44,10 +43,10 @@ class App extends Component {
           <Route exact path="/education" component={Education} />
           <Route exact path="/about-me" component={AboutMe} />
           <Route exact path="/contact-me" component={ContactMe} />
-          {/* <WelcomeModal
+          <WelcomeModal
             show={this.state.showOnLoadModal}
             closeModal={this.handleHideLogOutModal}
-          /> */}
+          />
         </Router>
       </div>
     );

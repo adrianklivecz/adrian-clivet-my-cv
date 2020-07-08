@@ -1,30 +1,27 @@
 import React, { Component } from "react";
-import { Modal, Button } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import "./WelcomeModal.css";
 
 export class WelcomeModal extends Component {
   render() {
     return (
       <div className="modal-container">
         <Modal
-          size="lg"
+          size="xl"
           aria-labelledby="contained-modal-title-vcenter"
           centered
           show={this.props.show}
         >
-          <Modal.Header>
-            <Modal.Title id="contained-modal-title-vcenter">
-              Welcome!
-            </Modal.Title>
-          </Modal.Header>
           <Modal.Body className="modal-structures">
-            <p>
+            <p className="splash-modal-quote">
               “There are far, far better things ahead than any we leave behind.”
               ― C.S. Lewis
             </p>
+            <Button onClick={this.props.closeModal} id="splash-modal-button">
+              Enter
+            </Button>
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.props.closeModal}>Enter</Button>
-          </Modal.Footer>
         </Modal>
       </div>
     );
