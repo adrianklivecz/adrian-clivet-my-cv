@@ -25,7 +25,7 @@ export class Homepage extends Component {
           <h4>Hi, I'm Adi.</h4>
           <p>
             I'm a passionate learner in Front End Development, focussing right
-            now on React.
+            now on React, based in Cluj-Napoca.
           </p>
           <p>
             Having a background in Marketing and Sales in the luxury goods
