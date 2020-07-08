@@ -4,9 +4,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.modal-content {
   height: 90vh;
 }
 
