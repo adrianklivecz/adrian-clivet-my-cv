@@ -6,9 +6,10 @@ import { Experience } from "./Components/Pages/Experience/Experience";
 import { Education } from "./Components/Pages/Education/Education";
 import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { ContactMe } from "./Components/Pages/ContactMe/ContactMe";
-import "bootstrap/dist/css/bootstrap.css";
-import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
+import { Project } from "./Components/Pages/Project/Project";
+// import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
 
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 class App extends Component {
@@ -41,12 +42,13 @@ class App extends Component {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/experience" component={Experience} />
           <Route exact path="/education" component={Education} />
+          <Route exact path="/project" component={Project} />
           <Route exact path="/about-me" component={AboutMe} />
           <Route exact path="/contact-me" component={ContactMe} />
-          <WelcomeModal
+          {/* <WelcomeModal
             show={this.state.showOnLoadModal}
             closeModal={this.handleHideLogOutModal}
-          />
+          /> */}
         </Router>
       </div>
     );
