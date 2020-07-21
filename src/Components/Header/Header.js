@@ -37,6 +37,11 @@ export class Header extends Component {
                 Education
               </Link>
             </li>
+            <li className={path === "/project" ? "selected" : ""}>
+              <Link to="/project" className="menu-buttons">
+                Project
+              </Link>
+            </li>
             <li className={path === "/about-me" ? "selected" : ""}>
               <Link to="/about-me" className="menu-buttons">
                 About Me

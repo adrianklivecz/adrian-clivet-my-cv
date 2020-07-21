@@ -1,0 +1,68 @@
+.group-project-container {
+  margin-left: 210px;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+.project-carousel-container,
+.project-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-carousel-container {
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+
+.project-details-container {
+  padding-bottom: 60px;
+}
+
+.project-details {
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+}
+
+.project-title {
+  margin-left: 50px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-details li {
+  padding: 10px;
+}
+
+#group-project-page-title {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.project-carousel-container img {
+  width: 90%;
+  margin: auto;
+}
+
+.project-carousel-container p {
+  padding-top: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.highlighted-words {
+  font-weight: bold;
+}
+
+.project-page-intro {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
