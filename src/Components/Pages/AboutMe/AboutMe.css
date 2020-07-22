@@ -1,0 +1,50 @@
+.about-page-container {
+  margin-left: 210px;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+#about-page-title {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.about-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-section {
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+  padding-bottom: 70px;
+}
+
+.about-page-section li {
+  padding: 10px;
+}
+
+.about-page__section-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+}
+
+.technologies-logo {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.technologies-and-tools li {
+  list-style: none;
+}
+
+.skills-icons {
+  margin-right: 10px;
+}
