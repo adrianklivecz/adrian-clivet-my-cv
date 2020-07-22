@@ -115,7 +115,7 @@ export function Experience() {
             <li>
               One of my biggest improvements to the company was creating a
               comprehensive form of data analysis, which helped the company to
-              observe and fastly adjust the orders.
+              observe the sales trends and adjust the orders accordingly.
             </li>
             <li>
               I am grateful that during this period I got to take a special
