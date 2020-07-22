@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import profile from "./IMAG4541.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 import "./Homepage.css";
 
@@ -25,7 +27,9 @@ export class Homepage extends Component {
           <h4>Hi, I'm Adi.</h4>
           <p>
             I'm a passionate learner in Front End Development, focussing right
-            now on React, based in Cluj-Napoca.
+            now on{" "}
+            <FontAwesomeIcon icon={faReact} style={{ color: "#29a3c2" }} />
+            React, based in Cluj-Napoca.
           </p>
           <p>
             Having a background in Marketing and Sales in the luxury goods
