@@ -60,7 +60,7 @@ export class ContactMe extends Component {
         <div className="contact-page-form-container">
           <div className="contact-page-message">
             <div className="contact-card">
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem" }} id="contact-details">
                 <Card.Body>
                   <Card.Title style={{ fontWeight: "bold" }}>
                     Adrian Cliveț
