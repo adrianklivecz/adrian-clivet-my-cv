@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+#contact-details {
+  margin: 0;
+}
+
 .gmap-cj {
   padding-top: 20px;
 }
