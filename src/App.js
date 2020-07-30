@@ -8,6 +8,7 @@ import { AboutMe } from "./Components/Pages/AboutMe/AboutMe";
 import { ContactMe } from "./Components/Pages/ContactMe/ContactMe";
 import { Project } from "./Components/Pages/Project/Project";
 // import { WelcomeModal } from "./Components/WelcomeModal/WelcomeModal";
+import { CSSTransition } from "react-transition-group";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";

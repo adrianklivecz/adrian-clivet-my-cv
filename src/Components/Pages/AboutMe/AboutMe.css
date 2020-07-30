@@ -1,5 +1,5 @@
 .about-page-container {
-  margin-left: 210px;
+  margin-left: 160px;
   font-family: "Open Sans", sans-serif;
   height: 100%;
 }
@@ -20,7 +20,7 @@
 }
 
 .about-page-section {
-  width: 80%;
+  width: 100%;
   padding-right: 50px;
   padding-left: 50px;
   text-align: justify;
