@@ -106,5 +106,15 @@
 
 .card-header:hover {
   cursor: pointer;
-  color: #61dbfb;
+  color: #29a3c2;
+}
+
+.experience-arrow {
+  float: right;
+  margin-right: 40px;
+  transition: 0.3s transform ease-in-out;
+}
+
+.selected-toggle {
+  transform: rotate(180deg);
 }
