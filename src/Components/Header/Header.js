@@ -1,20 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
 
 export class Header extends Component {
   render() {
-    const path = this.props.location.pathname;
-
     return (
       <div className="header-container">
         <div className="top">
@@ -22,35 +19,59 @@ export class Header extends Component {
         </div>
         <div className="buttons-container">
           <ul className="menu-list">
-            <li className={path === "/" ? "selected" : ""}>
-              <Link to="/" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/home"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 Home
-              </Link>
+              </NavLink>
             </li>
-            <li className={path === "/experience" ? "selected" : ""}>
-              <Link to="/experience" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/experience"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 Experience
-              </Link>
+              </NavLink>
             </li>
-            <li className={path === "/education" ? "selected" : ""}>
-              <Link to="/education" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/education"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 Education
-              </Link>
+              </NavLink>
             </li>
-            <li className={path === "/project" ? "selected" : ""}>
-              <Link to="/project" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/project"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 Project
-              </Link>
+              </NavLink>
             </li>
-            <li className={path === "/about-me" ? "selected" : ""}>
-              <Link to="/about-me" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/about-me"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 About Me
-              </Link>
+              </NavLink>
             </li>
-            <li className={path === "/contact-me" ? "selected" : ""}>
-              <Link to="/contact-me" className="menu-buttons">
+            <li>
+              <NavLink
+                to="/contact-me"
+                className="menu-buttons"
+                activeClassName="selected"
+              >
                 Contact Me
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

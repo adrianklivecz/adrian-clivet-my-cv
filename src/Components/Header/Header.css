@@ -38,6 +38,7 @@
 .selected {
   text-decoration: underline;
   font-weight: bold;
+  border-bottom: 1px solid rgb(102, 100, 100);
 }
 
 .top,
@@ -88,6 +89,7 @@
   color: black;
   font-weight: bold;
   font-size: 17px;
+  text-decoration: none;
 }
 
 .media-icons a {
