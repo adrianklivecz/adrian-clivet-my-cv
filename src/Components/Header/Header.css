@@ -9,7 +9,6 @@
   flex-direction: column;
   position: sticky;
   top: 0;
-  /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16"); */
 }
 
 .buttons-container {
@@ -22,23 +21,18 @@
 }
 
 .menu-list {
-  /* display: flex;
-  flex-direction: column;
-  position: relative; */
   width: 150px;
 }
 
 .buttons-container li {
   margin-bottom: 20px;
   text-align: end;
-  /* position: absolute; */
   font-size: 19px;
 }
 
 .selected {
   text-decoration: underline;
   font-weight: bold;
-  border-bottom: 1px solid rgb(102, 100, 100);
 }
 
 .top,
@@ -89,7 +83,7 @@
   color: black;
   font-weight: bold;
   font-size: 17px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .media-icons a {
