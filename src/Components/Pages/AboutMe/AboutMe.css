@@ -4,6 +4,12 @@
   height: 100%;
 }
 
+.about-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #about-page-title {
   text-align: center;
   font-size: 22px;
@@ -11,13 +17,6 @@
   padding-bottom: 80px;
   font-family: "Josefin Sans", sans-serif;
   margin-left: 120px;
-}
-
-.about-page-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-page-section {
