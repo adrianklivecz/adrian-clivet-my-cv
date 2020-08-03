@@ -29,7 +29,6 @@ export class Experience extends Component {
   toggleClass = () => {
     const currentState = this.state.active;
     this.setState({ active: !currentState });
-    console.log("test");
   };
 
   render() {

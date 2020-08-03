@@ -7,8 +7,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: fixed;
-  /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16"); */
+  position: sticky;
+  top: 0;
 }
 
 .buttons-container {
@@ -21,16 +21,12 @@
 }
 
 .menu-list {
-  /* display: flex;
-  flex-direction: column;
-  position: relative; */
   width: 150px;
 }
 
 .buttons-container li {
   margin-bottom: 20px;
   text-align: end;
-  /* position: absolute; */
   font-size: 19px;
 }
 
@@ -87,6 +83,7 @@
   color: black;
   font-weight: bold;
   font-size: 17px;
+  text-decoration: underline;
 }
 
 .media-icons a {
