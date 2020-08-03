@@ -28,7 +28,6 @@ class App extends Component {
 
   showModal = () => {
     this.setState({ showOnLoadModal: true });
-    console.log("show");
   };
 
   handleHideLogOutModal = () => {

@@ -6,7 +6,6 @@ import {
   faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";

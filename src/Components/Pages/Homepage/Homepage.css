@@ -1,5 +1,4 @@
 .homepage-container {
-  /* margin-left: 210px; */
   font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: center;
@@ -44,7 +43,6 @@
 
 .profile-image-back {
   background-color: rgb(214, 227, 235);
-  /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ede8edff&noise=626262&density=26&opacity=16"); */
   border-radius: 5%;
   transform: rotateY(180deg);
   transition: all 3s ease;

@@ -35,7 +35,6 @@ export class Experience extends Component {
     return (
       <div className="experience-container">
         <p id="experience-page-title">My journey, so far:</p>
-
         <div className="era-container-first">
           <div className="experience-details">
             <Accordion>
