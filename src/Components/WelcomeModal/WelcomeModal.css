@@ -5,6 +5,9 @@
   -o-background-size: cover;
   background-size: cover;
   height: 90vh;
+  animation: fadeInAnimation ease-in-out 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .splash-modal-quote {
@@ -17,4 +20,13 @@
 #splash-modal-button {
   position: absolute;
   right: 120px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
