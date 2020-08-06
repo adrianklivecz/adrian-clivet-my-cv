@@ -109,8 +109,12 @@
   color: #29a3c2;
 }
 
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .experience-arrow {
-  float: right;
   margin-right: 40px;
   transition: 0.3s transform ease-in-out;
 }

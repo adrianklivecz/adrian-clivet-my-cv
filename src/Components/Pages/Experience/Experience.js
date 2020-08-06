@@ -46,8 +46,10 @@ export class Experience extends Component {
                     eventKey="0"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      Nov 2019 - Jun 2020: Scoala Informala de IT{" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        Nov 2019 - Jun 2020: Scoala Informala de IT{" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -56,7 +58,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
@@ -90,8 +92,10 @@ export class Experience extends Component {
                     eventKey="1"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      Jan 2018 - Nov 2019: Research and testing{" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        Jan 2018 - Nov 2019: Research and testing{" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -100,7 +104,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
@@ -147,9 +151,11 @@ export class Experience extends Component {
                     eventKey="2"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      Oct 2011 - Jan 2018: Sales Consultant at GALT Orologerie
-                      Elvetiana{" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        Oct 2011 - Jan 2018: Sales Consultant at GALT Orologerie
+                        Elvetiana{" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -158,7 +164,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
@@ -248,8 +254,10 @@ export class Experience extends Component {
                     eventKey="3"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      Aug 2010 - Jul 2011: Account Manager at infoLocal{" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        Aug 2010 - Jul 2011: Account Manager at infoLocal{" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -258,7 +266,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="3">
@@ -304,9 +312,11 @@ export class Experience extends Component {
                     eventKey="4"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      May 2010 - Aug 2010: Loans Consultant at Patria Credit
-                      (now Patria Bank){" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        May 2010 - Aug 2010: Loans Consultant at Patria Credit
+                        (now Patria Bank){" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -315,7 +325,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="4">
@@ -356,9 +366,11 @@ export class Experience extends Component {
                     eventKey="5"
                     onClick={this.toggleClass}
                   >
-                    <p className="experience-title">
-                      Apr 2009 - Nov 2009: Financial Consultant at Consultanta
-                      Financiara Germana{" "}
+                    <div className="accordion-header">
+                      <p className="experience-title">
+                        Apr 2009 - Nov 2009: Financial Consultant at Consultanta
+                        Financiara Germana{" "}
+                      </p>
                       <FontAwesomeIcon
                         icon={faChevronDown}
                         className={
@@ -367,7 +379,7 @@ export class Experience extends Component {
                             : "experience-arrow"
                         }
                       />
-                    </p>
+                    </div>
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="5">

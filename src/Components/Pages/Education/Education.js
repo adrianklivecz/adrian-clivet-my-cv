@@ -14,7 +14,7 @@ export class Education extends Component {
               Master's degree: Business Administration and Management
             </p>
             <p className="education-title">
-              2019 - 2011, Faculty of Economics and Business Administration,
+              2009 - 2011, Faculty of Economics and Business Administration,
               Cluj-Napoca
             </p>
             <ul>
