@@ -26,7 +26,9 @@
 .fade-appear-active,
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 300ms linear 400ms;
+  transition: opacity 500ms linear 300ms;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
 
 .fade-exit {
@@ -36,4 +38,6 @@
 .fade-exit.fade-exit-active {
   opacity: 0;
   transition: opacity 300ms linear;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
