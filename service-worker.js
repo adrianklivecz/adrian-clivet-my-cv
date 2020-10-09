@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adrian-clivet-my-cv/precache-manifest.0215143c80a54153b0c0ab6db916b5c9.js"
+  "/adrian-clivet-my-cv/precache-manifest.721cf300620401859563d034fea39e2d.js"
 );
 
 self.addEventListener('message', (event) => {
