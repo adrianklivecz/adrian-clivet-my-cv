@@ -21,8 +21,8 @@ export class Header extends Component {
         </div>
         <div className="buttons-container">
           <ul className="menu-list">
-            <li className={path === "/" ? "selected" : ""}>
-              <Link to="/" className="menu-buttons">
+            <li className={path === "/adrian-clivet-my-cv" ? "selected" : ""}>
+              <Link to="/adrian-clivet-my-cv" className="menu-buttons">
                 Home
               </Link>
             </li>
