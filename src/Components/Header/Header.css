@@ -1,14 +1,14 @@
 .header-container {
-  padding-top: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 100%;
-  width: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: sticky;
   top: 0;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  width: 200px;
 }
 
 .buttons-container {
@@ -41,14 +41,14 @@
 }
 
 .top {
-  font-family: "Josefin Sans", sans-serif;
   display: flex;
   width: 150px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .bottom {
-  width: 150px;
   padding-top: 80px;
+  width: 150px;
 }
 
 .media-icons {
@@ -59,8 +59,8 @@
 
 .copyright {
   border-top: 1px solid darkgray;
-  font-size: 12px;
   text-align: center;
+  font-size: 12px;
 }
 
 .copyright p {

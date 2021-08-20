@@ -14,13 +14,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      showOnLoadModal: false,
-    };
-  }
+  state = {
+    showOnLoadModal: false,
+  };
 
   componentDidMount() {
     this.showModal();
@@ -48,7 +44,11 @@ class App extends Component {
                   classNames="fade"
                 >
                   <Switch location={location}>
-                    <Route exact path="/adrian-clivet-my-cv" component={Homepage} />
+                    <Route
+                      exact
+                      path="/adrian-clivet-my-cv"
+                      component={Homepage}
+                    />
                     <Route exact path="/experience" component={Experience} />
                     <Route exact path="/education" component={Education} />
                     <Route exact path="/project" component={Project} />

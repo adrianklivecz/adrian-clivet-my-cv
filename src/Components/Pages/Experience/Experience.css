@@ -1,5 +1,4 @@
 .experience-container {
-  margin-left: 160px;
   font-family: "Open Sans", sans-serif;
   height: 100%;
 }
@@ -24,8 +23,8 @@
 .galt-era-container {
   display: flex;
   align-items: center;
-  padding-left: 80px;
   position: relative;
+  padding-left: 80px;
 }
 
 .era-container-first {
@@ -47,18 +46,18 @@
 }
 
 #experience-page-title {
-  text-align: center;
-  font-size: 22px;
   padding-top: 80px;
   padding-bottom: 40px;
+  text-align: center;
+  font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .experience-image-container {
-  background-color: transparent;
   width: 180px;
   height: 240px;
   padding-right: 80px;
+  background-color: transparent;
 }
 
 .experience-image-research {
@@ -93,11 +92,11 @@
 
 .card,
 .card-header {
-  background-color: transparent !important;
-  border: none !important;
   padding: 0 !important;
   margin-bottom: 15px;
   margin-top: 15px;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .card {

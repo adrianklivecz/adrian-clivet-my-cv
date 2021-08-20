@@ -1,7 +1,6 @@
 .about-page-container {
-  margin-left: 160px;
-  font-family: "Open Sans", sans-serif;
   height: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about-page-content {
@@ -11,20 +10,20 @@
 }
 
 #about-page-title {
-  text-align: center;
-  font-size: 22px;
   padding-top: 80px;
   padding-bottom: 80px;
-  font-family: "Josefin Sans", sans-serif;
   margin-left: 120px;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .about-page-section {
-  width: 100%;
   padding-right: 50px;
   padding-left: 50px;
-  text-align: justify;
   padding-bottom: 70px;
+  width: 100%;
+  text-align: justify;
 }
 
 .about-page-section li {
@@ -37,8 +36,8 @@
 }
 
 .technologies-logo {
-  height: 30px;
   padding-right: 10px;
+  height: 30px;
 }
 
 .technologies-and-tools li {
