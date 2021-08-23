@@ -9,6 +9,7 @@ import {
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
+import Timer from "../Pages/Homepage/Timer";
 
 export class Header extends Component {
   render() {
@@ -90,6 +91,7 @@ export class Header extends Component {
               <span> 2020</span>
             </p>
             <p id="rights-paragraph">All rights reserved.</p>
+            <Timer />
           </div>
         </div>
       </div>

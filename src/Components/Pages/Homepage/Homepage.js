@@ -1,9 +1,8 @@
-import React, { Component } from "react";
-import profile from "./IMAG4541.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { Component } from "react";
 import "./Homepage.css";
+import profile from "./IMAG4541.jpg";
 
 export class Homepage extends Component {
   render() {
