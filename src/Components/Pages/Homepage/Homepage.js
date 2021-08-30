@@ -26,8 +26,8 @@ export class Homepage extends Component {
         <div className="homepage-greeting">
           <h4>Hi, I'm Adi.</h4>
           <p>
-            I'm a passionate learner in Front End Development, focussing right
-            now on{" "}
+            I'm a Junior Web Developer, a passionate learner in Front End
+            Development, focussing right now on{" "}
             <FontAwesomeIcon icon={faReact} style={{ color: "#29a3c2" }} />
             React and{" "}
             <FontAwesomeIcon icon={faAngular} style={{ color: "darkred" }} />
