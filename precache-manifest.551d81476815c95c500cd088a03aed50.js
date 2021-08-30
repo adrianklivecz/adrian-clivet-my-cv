@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5e85f84de20b755a5240b496358ce83",
+    "revision": "44c67b38874d79771506ed1c3d955ce7",
     "url": "/adrian-clivet-my-cv/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css"
   },
   {
-    "revision": "6eee8599a2e6dedb24af",
+    "revision": "68ff25fd5c1035f75623",
     "url": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eee8599a2e6dedb24af",
-    "url": "/adrian-clivet-my-cv/static/js/main.b92b596c.chunk.js"
+    "revision": "68ff25fd5c1035f75623",
+    "url": "/adrian-clivet-my-cv/static/js/main.31bb2bc5.chunk.js"
   },
   {
     "revision": "947b350589dcd6dc4823",

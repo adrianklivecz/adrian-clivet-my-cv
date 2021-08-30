@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css",
-    "main.js": "/adrian-clivet-my-cv/static/js/main.b92b596c.chunk.js",
-    "main.js.map": "/adrian-clivet-my-cv/static/js/main.b92b596c.chunk.js.map",
+    "main.js": "/adrian-clivet-my-cv/static/js/main.31bb2bc5.chunk.js",
+    "main.js.map": "/adrian-clivet-my-cv/static/js/main.31bb2bc5.chunk.js.map",
     "runtime-main.js": "/adrian-clivet-my-cv/static/js/runtime-main.6d4e4c54.js",
     "runtime-main.js.map": "/adrian-clivet-my-cv/static/js/runtime-main.6d4e4c54.js.map",
     "static/css/2.6433d333.chunk.css": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css",
     "static/js/2.de64e769.chunk.js": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js",
     "static/js/2.de64e769.chunk.js.map": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js.map",
     "index.html": "/adrian-clivet-my-cv/index.html",
-    "precache-manifest.efacc8b9757e1c2033f27a622355bf10.js": "/adrian-clivet-my-cv/precache-manifest.efacc8b9757e1c2033f27a622355bf10.js",
+    "precache-manifest.551d81476815c95c500cd088a03aed50.js": "/adrian-clivet-my-cv/precache-manifest.551d81476815c95c500cd088a03aed50.js",
     "service-worker.js": "/adrian-clivet-my-cv/service-worker.js",
     "static/css/2.6433d333.chunk.css.map": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css.map",
     "static/css/main.65a838fe.chunk.css.map": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css.map",
@@ -53,6 +53,6 @@
     "static/css/2.6433d333.chunk.css",
     "static/js/2.de64e769.chunk.js",
     "static/css/main.65a838fe.chunk.css",
-    "static/js/main.b92b596c.chunk.js"
+    "static/js/main.31bb2bc5.chunk.js"
   ]
 }
