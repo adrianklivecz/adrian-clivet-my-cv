@@ -1,4 +1,5 @@
 import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAngular } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import "./Homepage.css";
@@ -28,7 +29,9 @@ export class Homepage extends Component {
             I'm a passionate learner in Front End Development, focussing right
             now on{" "}
             <FontAwesomeIcon icon={faReact} style={{ color: "#29a3c2" }} />
-            React, based in Cluj-Napoca.
+            React and{" "}
+            <FontAwesomeIcon icon={faAngular} style={{ color: "darkred" }} />
+            Angular, based in Cluj-Napoca.
           </p>
           <p>
             Having a background in Marketing and Sales in the luxury goods
