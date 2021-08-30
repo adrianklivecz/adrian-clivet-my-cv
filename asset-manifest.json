@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/adrian-clivet-my-cv/static/css/main.9a2caaf1.chunk.css",
-    "main.js": "/adrian-clivet-my-cv/static/js/main.3b225104.chunk.js",
-    "main.js.map": "/adrian-clivet-my-cv/static/js/main.3b225104.chunk.js.map",
+    "main.css": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css",
+    "main.js": "/adrian-clivet-my-cv/static/js/main.b92b596c.chunk.js",
+    "main.js.map": "/adrian-clivet-my-cv/static/js/main.b92b596c.chunk.js.map",
     "runtime-main.js": "/adrian-clivet-my-cv/static/js/runtime-main.6d4e4c54.js",
     "runtime-main.js.map": "/adrian-clivet-my-cv/static/js/runtime-main.6d4e4c54.js.map",
-    "static/css/2.6e90b12a.chunk.css": "/adrian-clivet-my-cv/static/css/2.6e90b12a.chunk.css",
-    "static/js/2.f51580de.chunk.js": "/adrian-clivet-my-cv/static/js/2.f51580de.chunk.js",
-    "static/js/2.f51580de.chunk.js.map": "/adrian-clivet-my-cv/static/js/2.f51580de.chunk.js.map",
+    "static/css/2.6433d333.chunk.css": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css",
+    "static/js/2.de64e769.chunk.js": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js",
+    "static/js/2.de64e769.chunk.js.map": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js.map",
     "index.html": "/adrian-clivet-my-cv/index.html",
-    "precache-manifest.721cf300620401859563d034fea39e2d.js": "/adrian-clivet-my-cv/precache-manifest.721cf300620401859563d034fea39e2d.js",
+    "precache-manifest.efacc8b9757e1c2033f27a622355bf10.js": "/adrian-clivet-my-cv/precache-manifest.efacc8b9757e1c2033f27a622355bf10.js",
     "service-worker.js": "/adrian-clivet-my-cv/service-worker.js",
-    "static/css/2.6e90b12a.chunk.css.map": "/adrian-clivet-my-cv/static/css/2.6e90b12a.chunk.css.map",
-    "static/css/main.9a2caaf1.chunk.css.map": "/adrian-clivet-my-cv/static/css/main.9a2caaf1.chunk.css.map",
-    "static/js/2.f51580de.chunk.js.LICENSE.txt": "/adrian-clivet-my-cv/static/js/2.f51580de.chunk.js.LICENSE.txt",
+    "static/css/2.6433d333.chunk.css.map": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css.map",
+    "static/css/main.65a838fe.chunk.css.map": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css.map",
+    "static/js/2.de64e769.chunk.js.LICENSE.txt": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js.LICENSE.txt",
     "static/media/0.png": "/adrian-clivet-my-cv/static/media/0.6a5f7fcb.png",
     "static/media/Cinetab - Add Movie validation.png": "/adrian-clivet-my-cv/static/media/Cinetab - Add Movie validation.87b8bae5.png",
     "static/media/Cinetab - Advanced Search with results.png": "/adrian-clivet-my-cv/static/media/Cinetab - Advanced Search with results.e4bb1bf3.png",
@@ -50,9 +50,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6d4e4c54.js",
-    "static/css/2.6e90b12a.chunk.css",
-    "static/js/2.f51580de.chunk.js",
-    "static/css/main.9a2caaf1.chunk.css",
-    "static/js/main.3b225104.chunk.js"
+    "static/css/2.6433d333.chunk.css",
+    "static/js/2.de64e769.chunk.js",
+    "static/css/main.65a838fe.chunk.css",
+    "static/js/main.b92b596c.chunk.js"
   ]
 }
