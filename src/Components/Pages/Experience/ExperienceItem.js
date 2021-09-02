@@ -1,6 +1,6 @@
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useCallback, useEffect } from "react";
+import React from "react";
 import { Accordion } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { useExperienceItem } from "./useExperienceItem";

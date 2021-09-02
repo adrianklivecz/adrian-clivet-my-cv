@@ -14,13 +14,5 @@ export const useExperienceItem = (tabIndex, isActive, toggleActive) => {
     [tabIndex, toggleActive]
   );
 
-  useEffect(() => {
-    console.log(`toggleActive changed`);
-  }, [toggleActive]);
-
-  useEffect(() => {
-    console.log(`onToggle changed`);
-  }, [onToggle]);
-
   return { onToggle };
 };

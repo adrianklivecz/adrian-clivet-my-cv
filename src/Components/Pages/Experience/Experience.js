@@ -1,15 +1,8 @@
-import { Carousel } from "bootstrap";
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "./Experience.css";
 import { ExperienceItem } from "./ExperienceItem";
 import { useExperiences } from "./useExperiences";
-import galt6 from "./images/galt6.jpg";
-
-import galt2 from "./images/galt2.jpg";
-import galt3 from "./images/galt3.jpg";
-import galt4 from "./images/galt4.jpg";
-import galt5 from "./images/galt5.jpg";
 
 export const Experience = () => {
   const { activeIndex, onToggleClick, experiences } = useExperiences();
@@ -28,7 +21,7 @@ export const Experience = () => {
                 toggleActive={onToggleClick}
                 tabIndex={index}
               >
-                {experience.content}
+                <experience.content></experience.content>
               </ExperienceItem>
             ))}
           </Accordion>
