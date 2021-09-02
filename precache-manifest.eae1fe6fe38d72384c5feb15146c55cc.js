@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44c67b38874d79771506ed1c3d955ce7",
+    "revision": "62dbf9816fb098944b2ff5f3f9722db1",
     "url": "/adrian-clivet-my-cv/index.html"
   },
   {
-    "revision": "268b1f660600176c9f65",
-    "url": "/adrian-clivet-my-cv/static/css/2.6433d333.chunk.css"
+    "revision": "6f6935053b3ca2a8f718",
+    "url": "/adrian-clivet-my-cv/static/css/2.e4777ce8.chunk.css"
   },
   {
-    "revision": "68ff25fd5c1035f75623",
+    "revision": "1c4664afefb86ee5525e",
     "url": "/adrian-clivet-my-cv/static/css/main.65a838fe.chunk.css"
   },
   {
-    "revision": "268b1f660600176c9f65",
-    "url": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js"
+    "revision": "6f6935053b3ca2a8f718",
+    "url": "/adrian-clivet-my-cv/static/js/2.bffc15e4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/adrian-clivet-my-cv/static/js/2.de64e769.chunk.js.LICENSE.txt"
+    "url": "/adrian-clivet-my-cv/static/js/2.bffc15e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68ff25fd5c1035f75623",
-    "url": "/adrian-clivet-my-cv/static/js/main.31bb2bc5.chunk.js"
+    "revision": "1c4664afefb86ee5525e",
+    "url": "/adrian-clivet-my-cv/static/js/main.950c7bc7.chunk.js"
   },
   {
     "revision": "947b350589dcd6dc4823",
