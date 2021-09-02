@@ -1,4 +1,4 @@
-import { Carousel } from "bootstrap";
+import { Carousel } from "react-bootstrap";
 import React from "react";
 import image4 from "../images/0.png";
 import galt6 from "../images/galt6.jpg";
@@ -38,7 +38,7 @@ export const Experience3 = () => (
         <img src={image4} alt="galt-logo" id="galt-logo" />
       </div>
       <div className="carousel-container">
-        {/* <Carousel>
+        <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src={galt5} alt="First slide" />
           </Carousel.Item>
@@ -54,7 +54,7 @@ export const Experience3 = () => (
           <Carousel.Item>
             <img className="d-block w-100" src={galt6} alt="Fifth slide" />
           </Carousel.Item>
-        </Carousel> */}
+        </Carousel>
       </div>
     </div>
   </div>
