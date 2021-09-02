@@ -12,6 +12,13 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
+import { Carousel } from "bootstrap";
+import galt6 from "./Components/Pages/Experience/images/galt6.jpg";
+
+import galt2 from "./Components/Pages/Experience/images/galt2.jpg";
+import galt3 from "./Components/Pages/Experience/images/galt3.jpg";
+import galt4 from "./Components/Pages/Experience/images/galt4.jpg";
+import galt5 from "./Components/Pages/Experience/images/galt5.jpg";
 
 class App extends Component {
   state = {
@@ -65,6 +72,23 @@ class App extends Component {
             closeModal={this.handleHideLogOutModal}
           />
         </Router>
+        <Carousel>
+          <Carousel.Item>
+            <img className="d-block w-100" src={galt5} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={galt2} alt="Second slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={galt3} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={galt4} alt="Fourth slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={galt6} alt="Fifth slide" />
+          </Carousel.Item>
+        </Carousel>
       </div>
     );
   }
